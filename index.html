@@ -1,0 +1,434 @@
+<!DOCTYPE>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="./css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./font-awesome/css/font-awesome.min.css">
+
+	<style type="text/css">
+		.nav-link{
+			font-size: 1.05em;
+			text-shadow: .7px .5px .7px white;
+		}
+		.navbar-nav:last-child .nav-item .nav-link{
+		}
+		.navbar-dark .navbar-nav .nav-link:hover{
+			/*background: linear-gradient(45deg, #660066, #0000cc, #990099, #000066);*/
+			color: #ff6600;
+			text-shadow: .7px .5px .7px #ff6600;
+		}
+		.navbar-dark .navbar-nav .active>.nav-link{
+			color: #ff6600;
+			text-shadow: .7px .5px .7px #ff6600;
+		}
+		.navbar{
+			border-bottom: .2em solid #660033;
+			box-shadow: 0 16px 12px -12px black;
+			background-color: #0b0010;
+		}
+	</style>
+</head>
+<body>
+	<!-- LANDING IMAGE AND NAVIGATION START -->
+	<nav class="navbar navbar-expand-md navbar-dark fixed-top">
+		<div class="container-fluid">
+			<!-- NAVBAR BRAND -->
+			<a href="navbar-brand">
+				<img src="./images/logo_2.png" class="ml-2 py-2" style="width: 50px;">
+			</a>
+			<!-- TOGGLE BUTTON -->
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#collapsed-nav">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<!-- NAVLINKS -->
+			<div id="collapsed-nav" class="collapse navbar-collapse">
+				<ul class="navbar-nav mx-auto">
+					<li class="nav-item px-1 active">
+						<a href="./index.html" class="nav-link">Home</a>
+					</li>
+					<li class="nav-item px-1">
+						<a href="./about.html" class="nav-link">About</a>
+					</li>
+					<li class="nav-item px-1">
+						<a href="./service.html" class="nav-link">Service</a>
+					</li>
+					<li class="nav-item px-1">
+						<a href="./blog.html" class="nav-link">Blog</a>
+					</li>
+					<li class="nav-item px-1">
+						<a href="./contact.html" class="nav-link">Contact</a>
+					</li>
+				</ul>
+				<ul class="navbar-nav float-md-right">
+					<li class="nav-item">
+						<a href="#" class="nav-link d-inline" data-toggle="tooltip" data-placement="top" title="akilapanunayan@gmail.com"><span class="fa fa-envelope px-1"></span></a>
+						<a href="#" class="nav-link d-inline mr-2" data-toggle="tooltip" data-placement="top" title="08182591759"><span class="fa fa-phone px-1"></span></a>
+						<a href="#" class="nav-link d-inline mr-2" data-toggle="tooltip" data-placement="top" title="08182591759"><span class="fa fa-whatsapp"></span></a>
+						<a href="#" class="nav-link d-inline mr-2" data-toggle="tooltip" data-placement="top" title="youngwundaye"><span class="fa fa-twitter"></span></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="landing-bg">
+		<div id="landing-panel">
+			<div class="container gp-center">
+				<div class="gp-landing-pad text-center">
+					<h2 class="mt-0 my-2 text-uppercase">We are Your Writing Affairs</h2>
+					<p class="my-2 font-italic">We provide only the best content that money can buy, Try us out today</p>
+					<a href="./contact.html" class="gp-h-btn my-3 d-inline-block">Contact Us</a>
+				</div>
+			</div>
+			<!-- <div class="container-fluid gp-bottom">
+				<div class="flex gp-landing-pad py-1">
+					<a href="#" class="gp-contact-icon btn"><span class="fa fa-google"></span></a>
+					<a href="#" class="gp-contact-icon btn"><span class="fa fa-whatsapp"></span></a>
+					<a href="#" class="gp-contact-icon btn"><span class="fa fa-twitter"></span></a>
+					<a href="#" class="gp-contact-icon btn"><span class="fa fa-phone"></span></a>
+				</div>
+			</div> -->
+		</div>
+	</div>
+	<!-- LANDING IMAGE AND NAVIGATION END -->
+
+
+
+
+	<!-- ABOUT SECTION START -->
+	<div id="home-about" class="py-5">
+		<h1 class="py-3 mt-5 px-2"> <span class="mx-auto">ABOUT</span></h1>
+		<div class="container">
+			<div class="row py-2 mx-auto">
+				<!-- ABOUT FOR LARGE SCREENS -->
+				<div class="d-md-none d-lg-block col-lg-4 my-3">
+					<div class="container-fluid">
+						<h2 class="text-lg-right text-center">About Us</h2>
+						<p class="text-justify">A social worker of the planet of mars who developed the interest of total galactic rule and was granted the great oppurtunity of being the great herald of the one above all. Granted Immortality and Dominion he set forth to Herald the coming of his master and no matter who stands in his way, he's not backing down A social worker of the planet of mars who developed the interest of total galactic rule and was granted the great oppurtunity of being the great herald of the one above all... <a href="./about.html"><i class="font-weight-bold" style="color: #663300;">Learn more</i></a> </p>
+						<button class="gp-btn my-2 float-lg-right">Download CV<span class="fa fa-download pl-2"></span></button>
+					</div>
+				</div>
+				<!-- PICTURE -->
+				<div class="col-md-6 col-lg-4 my-3">
+					<div class="container-fluid">
+						<img class="mx-auto d-block gp-img shadow" src="./images/moi.jpg">
+					</div>
+				</div>
+				<!-- SERVICES -->
+				<div class="col-md-6 col-lg-4 my-3">
+					<div class="container-fluid">
+						<h2 class="text-center text-lg-left">Services</h2>
+						<div class="d-flex flex-column">
+							<a href="./service.html" class="hover-card">
+								<div class="gp-service-card px-3 py-3 my-2">
+									<h4><span class="fa fa-edit pr-2"></span>Article Writting</h4>
+								</div>
+							</a>
+							<a href="./service.html" class="hover-card">
+								<div class="gp-service-card px-3 py-3 my-2">
+									<h4><span class="fa fa-edit pr-2"></span>Reseach Writting</h4>
+								</div>
+							</a>
+							<a href="./service.html" class="hover-card">
+								<div class="gp-service-card px-3 py-3 my-2">
+									<h4><span class="fa fa-edit pr-2"></span>Ghost Writting</h4>
+								</div>
+							</a>
+							<a href="./service.html" class="hover-card">
+								<div class="gp-service-card px-3 py-3 my-2">
+									<h4><span class="fa fa-edit pr-2"></span>Content Writting</h4>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<!-- ABOUT FOR MEDIUM SCREENS-->
+				<div class="d-none d-md-block d-lg-none col-md-12 my-3">
+					<div class="container-fluid">
+						<h2>About Us</h2>
+						<p class="text-justify">A social worker of the planet of mars who developed the interest of total galactic rule and was granted the great oppurtunity of being the great herald of the one above all. Granted Immortality and Dominion he set forth to Herald the coming of his master and no matter who stands in his way, he's not backing down A social worker of the planet of mars who developed the interest of total galactic rule and was granted the great oppurtunity of being the great herald of the one above all.</p>
+						<button class="gp-btn my-2">Download CV<span class="fa fa-download pl-2"></span></button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ABOUT SECTION END -->
+
+	<!-- BLOG SECTION START -->
+	<div id="home-blog" class="py-5">
+		<h1 class="pt-1 mt-3 px-2">BLOGS</h1>
+		<div class="container text-center">
+			<p class="text-center">Check out my blog with lots of hoolahoos and ragents levers made for super enhanced titanic gods of the storm raging sea</p>
+			<a href="./blogs.html" class="mx-auto d-inline-block gp-h-btn">View Blog <small><span class="fa fa-arrow-right text-small"></span></small></a>
+		</div>
+		<div class="container py-3 mt-5">
+			<div class="row">
+				<div class="d-none d-lg-block col-lg-5 gp-card px-3 pt-4 pb-3 my-2 gp-lighter-bg">
+					<img src="./images/logo_2.png" class="d-block mx-auto py-3" style="width: 55px;">
+					<p class="text-justify">Of all the creatures that live and creepeth on land, there exists none which writes as beautifully as we do. Our blog contains the best of informative and educative contents. Below are the favorite categories of our readers</p>
+					<ul>
+						<li>Sports</li>
+						<li>Science</li>
+						<li>Technology</li>
+						<li>Religion</li>
+						<li>Spiritual</li>
+						<li>Animals</li>
+					</ul>
+					<p class="text-justify">Thus we expect for the Primodials to come forth and plead us to write for them in the stars beyond the reach of mortals for their self worth and might.</p>
+				</div>
+				<div class="col-12 col-lg-7 my-2 px-4">
+					<div class="row swiper-container pb-3">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide col-12 col-md-6 col-lg-6 px-3 pb-1 mb-2 gp-blog-card">
+								<div class="gp-blog-img mb-4">
+									<img class="gp-card" src="./images/newyork.jpg">
+									<h3><span>04</span><span>Oct</span></h3>
+								</div>
+								<a href="#"><h3 class="pb-3">The Awakening of the Sword of Heaven</h3></a>
+								<div class="d-flex py-2 font-italic gp-blog-detail">
+	                                <a href="#" class="pr-2"><i class="fa fa-user" aria-hidden="true"></i> Lucie Smith</a><span>|</span>
+	                                <a href="#" class="pl-2"><i class="fa fa-calendar" aria-hidden="true"></i> April 15, 2018</a>
+	                            </div>
+	                            <p class="text-justify">Those who shall awaken are the bones of their sword, steel is their body and fire is their bones. They must have created over a thousand blades </p>
+							</div>
+							<div class="swiper-slide col-12 col-md-6 col-lg-6 px-3 pb-1 mb-2 gp-blog-card">
+								<div class="gp-blog-img mb-4">
+									<img class="gp-card" src="./images/paris.jpg">
+									<h3><span>04</span><span>Oct</span></h3>
+								</div>
+								<a href="#"><h3 class="pb-3">The Awakening of the Sword of Heaven</h3></a>
+								<div class="d-flex py-2 font-italic gp-blog-detail">
+	                                <a href="#" class="pr-2"><i class="fa fa-user" aria-hidden="true"></i> Lucie Smith</a><span>|</span>
+	                                <a href="#" class="pl-2"><i class="fa fa-calendar" aria-hidden="true"></i> April 15, 2018</a>
+	                            </div>
+	                            <p class="text-justify">Those who shall awaken are the bones of their sword, steel is their body and fire is their bones. They must have created over a thousand blades</p>
+							</div>
+							<div class="swiper-slide col-12 col-md-6 col-lg-6 px-3 pb-1 mb-2 gp-blog-card">
+								<div class="gp-blog-img mb-4">
+									<img class="gp-card" src="./images/sanfran.jpg">
+									<h3><span>04</span><span>Oct</span></h3>
+								</div>
+								<a href="#"><h3 class="pb-3">The Awakening of the Sword of Heaven</h3></a>
+								<div class="d-flex py-2 font-italic gp-blog-detail">
+	                                <a href="#" class="pr-2"><i class="fa fa-user" aria-hidden="true"></i> Lucie Smith</a><span>|</span>
+	                                <a href="#" class="pl-2"><i class="fa fa-calendar" aria-hidden="true"></i> April 15, 2018</a>
+	                            </div>
+	                            <p class="text-justify">Those who shall awaken are the bones of their sword, steel is their body and fire is their bones. They must have created over a thousand blades</p>
+							</div>
+						</div>
+						<!-- <div class="swiper-pagination"></div> -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- BLOG SECTION END -->
+
+	<!-- CONTACT SECTION START -->
+	<div id="home-contact" class="py-5">
+		<h1 class="pt-1 mt-3 px-2">CONTACT</h1>
+		<div class="container mt-5">
+			<div class="row px-2">
+				<div class="col-12 col-lg-4 mb-4">
+					<div class="gp-card p-0">
+						<div class="gp-card-spicer p-0">
+							<div class="m-0 p-3">
+								<h3 class="comment-title">Contact Details</h3>
+								<p class="text-justify py-4">Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feug iat bibendum orci, non elementum urna. Cras sit amet sapien aliquam.</p>
+								<div class="row">
+									<div class="col-md-9">
+										<ul class="contact-info-list px-0">
+											<li class="row py-2">
+												<div class="gp-cf-left col-4">Address</div>
+												<div class="col-8">1481 Creekside Lane Avila Beach, CA 931</div>
+											</li>
+											<li class="row py-2">
+												<div class="gp-cf-left col-4">Phone</div>
+												<div class="col-8">+53 345 7953 32453</div>
+											</li>
+											<li class="row py-2">
+												<div class="gp-cf-left col-4">E-mail</div>
+												<div class="col-8">yourmail@gmail.com</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="pt-3 pb-2 text-center">
+									<a href="#"><i class="fa fa-pinterest pr-4"></i></a>
+									<a href="#"><i class="fa fa-facebook pr-4"></i></a>
+									<a href="#"><i class="fa fa-twitter pr-4"></i></a>
+									<a href="#"><i class="fa fa-dribbble pr-4"></i></a>
+									<a href="#"><i class="fa fa-behance pr-4"></i></a>
+									<a href="#"><i class="fa fa-linkedin pr-4"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-lg-8 py-3 py-lg-1 pl-lg-5 mb-4">
+					<form>
+						<div class="form-group">
+							<div class="row">
+								<div class="col-12 col-md-6 pb-4">
+									<input type="text" class="form-control" id="user_name" name="user_name" placeholder="Name">
+								</div>
+								<div class="col-12 col-md-6 pb-4">
+									<input type="email" class="form-control" id="user_email" name="user_email" placeholder="E-mail">
+								</div>
+								<div class="col-12 pb-4">
+									<input type="text" class="form-control w-100" id="contact_subject" name="contact_subject" placeholder="Subject">
+								</div>
+								<div class="col-12 pb-4">
+									<textarea class="form-control w-100 pb-4" rows="9" id="user_message" placeholder="Message"></textarea>
+								</div>
+								<div class="col-12">
+									<button class="gp-btn">Send Message</button>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- CONTACT SECTION END -->
+
+	<!-- TESTIMONIALS SECTION START -->
+	<div id="home-testimonial" class="py-5">
+		<div class="container text-center">
+			<h1 class="pt-1 mt-3 px-1">TESTIMONIALS</h1>
+			<p class="text-center">Here's what our clients have to say abut our service. Make's sense right? Guess you must really want to do the hiring dontcha. Just click on the lil button bellow and we're golden</p>
+			<a href="./contact.html" class="gp-h-btn d-inline-block mx-auto">Hire Me!</a>
+		</div>
+		<div class="container mt-4">
+			<div id="home-testimonial-container" class="row swiper-container py-5">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide col-12 col-md-6 pt-5 px-4">
+						<div class="gp-card text-center px-4 py-5">
+							<img class="mb-2" src="./images/person2.jpg">
+							<h4 class="py-4">John Carter</h4>
+							<p class="">"The guys are the bomb. I mean 5mil words in just 2  weeks, they're like the genies of content development. Need a clean job delivered on time? they're the ones."</p>
+						</div>
+					</div>
+					<div class="swiper-slide col-12 col-md-6 pt-5 px-4">
+						<div class="gp-card text-center px-4 py-5">
+							<img class="mb-2" src="./images/person1.jpg">
+							<h4 class="py-4">John Carter</h4>
+							<p class="">"The guys are the bomb. I mean 5mil words in just 2  weeks, they're like the genies of content development. Need a clean job delivered on time? they're the ones."</p>
+						</div>
+					</div>
+					<div class="swiper-slide col-12 col-md-6 pt-5 px-4">
+						<div class="gp-card text-center px-4 py-5">
+							<img class="mb-2" src="./images/person3.jpg">
+							<h4 class="py-4">John Carter</h4>
+							<p class="">"The guys are the bomb. I mean 5mil words in just 2  weeks, they're like the genies of content development. Need a clean job delivered on time? they're the ones."</p>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="swiper-pagination"></div> -->
+			</div>
+		</div>
+	</div>
+	<!-- TESTIMONIALS SECTION END -->
+
+	<!-- FOOTER SECTION START -->
+	<div class="footer py-5">
+		<div class="container">
+			<div class="row gp-card p-3">
+				<div class="col-12 col-md-12 col-lg-4 px-3 text-center text-lg-left">
+					<div class="p-3">
+						<img src="./images/logo_2.png" style="width: 60px;">
+						<h3 class="py-2">Your Writing Affairs</h3>
+						<ul class="px-0">
+							<li class="d-block d-lg-flex">
+								<div><i class="fa fa-map-marker pr-3" aria-hidden="true"></i></div><span>1195 Lobortis Rd, New Orleans, New Hampshire</span>
+							</li>
+							<li class="d-block d-lg-flex">
+								<div><i class="fa fa-phone pr-2" aria-hidden="true"></i></div><span>+1 234 800 8080</span>
+							</li>
+							<li class="d-block d-lg-flex">
+								<div><i class="fa fa-envelope pr-2" aria-hidden="true"></i></div><span>info.deercreative@gmail.com</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-4 px-3">
+					<div class="p-3">
+						<h3 class="py-2">Latest Blogs</h3>
+						<div class="py-3">
+							<a href="#"><h4>The death of Franklin Richards</h4></a>
+							<span class="d-block"><i class="fa fa-calendar pr-2"></i><span class="font-italic">November 16, 2020</span></span>
+						</div>
+						<div class="py-3">
+							<a href="#"><h4>The death of Franklin Richards</h4></a>
+							<span class="d-block"><i class="fa fa-calendar pr-2"></i><span class="font-italic">November 16, 2020</span></span>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-4 px-3">
+					<div class="p-3">
+						<h3 class="py-2">Subscribe</h3>
+						<p>Join our Email newsletter to receive news, events and other announcements.</p>
+						<form>
+							<div class="py-2">
+								<input type="email" class="form-control" id="user_newsletter_mail" name="user_newsletter_mail" placeholder="Enter your Email">
+							</div>
+							<button class="gp-btn mt-2">Subscribe</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- FOOTER SECTION END -->
+
+	
+
+
+<script src="./scripts/jquery-3.3.1.min.js" charset="utf-8"></script>
+<script src="./scripts/popper.min.js" charset="utf-8"></script>
+<script src="./scripts/bootstrap.js" charset="utf-8"></script>
+<script src="./scripts/script_ss.js" charset="utf-8"></script>
+<script src="./scripts/swiper.min.js" charset="utf-8"></script>
+<script>
+	$(document).ready(function(){
+    	$('[data-toggle="tooltip"]').tooltip(); 
+	});
+</script>
+    <script>
+    	var swiper = new Swiper('.swiper-container', {
+	        grabCursor: true,
+	        slidesPerView: 'auto',
+	        spaceBetween: 5,
+	        loop: true,
+			pagination: {
+			    el: '.swiper-pagination',
+			    clickable: true,
+			},
+		    autoplay: {
+		        delay: 3500,
+		        disableOnInteraction: true,
+		    },
+		});
+		// var swiper = new Swiper('#home-slider', {
+	 //        spaceBetween: 1000,
+	 //        effect: 'fade',
+	 //        pagination: {
+		//         el: '.swiper-pagination',
+		//         clickable: true,
+	 //        },
+	 //        navigation: {
+		//         nextEl: '.swiper-button-next',
+		//         prevEl: '.swiper-button-prev',
+	 //        },
+	 //        autoplay: {
+		//         delay: 4500,
+		//         disableOnInteraction: false,
+		//     },
+	 //    });
+    </script>
+</body>
+</html>
